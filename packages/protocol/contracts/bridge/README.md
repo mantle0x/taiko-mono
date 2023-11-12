@@ -20,7 +20,7 @@ Each type has it's own vault contract both deployed to the source and destinatio
 
 #### Bridging Ether
 
-If user wants to bridge ether, he/she will initiate a bridge transaction with `sendMessage` on the source chain which includes:
+If the user wants to bridge ether, he/she will initiate a bridge transaction with `sendMessage` on the source chain which includes:
 
 ```
     struct Message {
